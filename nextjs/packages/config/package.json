@@ -1,5 +1,12 @@
 {
   "name": "@my-stack/config",
   "version": "0.0.0",
-  "private": true
+  "private": true,
+  "exports": {
+    "./env/client": "./src/env/client.ts",
+    "./env/server": "./src/env/server.ts"
+  },
+  "dependencies": {
+    "zod": "^4.6.5"
+  }
 }
