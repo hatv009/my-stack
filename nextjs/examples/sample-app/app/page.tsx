@@ -1,6 +1,7 @@
 import { serverEnv } from "@my-stack/config/env/server";
 import { formatVnd } from "@my-stack/utils";
 
+import { AuthLoading } from "@my-stack/ui";
 import Image from "next/image";
 import { ClientConfig } from "./clientConfig";
 export default function Home() {
@@ -16,6 +17,8 @@ export default function Home() {
           priority
         />
         <ClientConfig />
+        <AuthLoading/>
+        
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             To get started, edit the{" "}

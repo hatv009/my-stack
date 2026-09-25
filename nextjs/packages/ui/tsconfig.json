@@ -6,6 +6,12 @@
     "moduleResolution": "Bundler",
     "strict": true,
     "skipLibCheck": true,
-    "noEmit": true
-  }
+    "noEmit": true,
+    
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+ 
+  "exclude": ["node_modules"]
 }
