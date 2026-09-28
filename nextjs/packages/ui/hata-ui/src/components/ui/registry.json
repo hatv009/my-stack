@@ -1,0 +1,29 @@
+{
+    "$schema": "https://ui.shadcn.com/schema/registry.json",
+    "items": [
+        {
+            "name": "button",
+            "type": "registry:ui",
+            "title": "Button",
+            "description": "A simple button component.",
+            "files": [
+                {
+                    "path": "button.tsx",
+                    "type": "registry:ui"
+                }
+            ]
+        },
+        {
+            "name": "empty",
+            "type": "registry:ui",
+            "title": "Empty",
+            "description": "A simple empty component.",
+            "files": [
+                {
+                    "path": "empty.tsx",
+                    "type": "registry:ui"
+                }
+            ]
+        }
+    ]
+}

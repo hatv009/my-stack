@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "AuthLoading",
+  "title": "Auth Loading",
+  "description": "A simple auth loading component.",
+  "registryDependencies": [
+    "empty"
+  ],
+  "files": [
+    {
+      "path": "src/components/blocks/auth/AuthLoading.tsx",
+      "content": "'use client'\r\nimport { Empty, EmptyDescription, EmptyHeader, EmptyMedia, EmptyTitle } from \"@/components/ui/empty\";\r\nimport { Loader2Icon } from \"lucide-react\";\r\n\r\nexport const AuthLoading = () => {\r\n  return <div\r\n      role=\"status\"\r\n      aria-live=\"polite\"\r\n      className=\"fixed inset-0 z-50 flex flex-col items-center justify-center bg-white dark:bg-zinc-950\"\r\n    >\r\n      <Empty className=\"w-full\">\r\n      <EmptyHeader>\r\n        <EmptyMedia variant=\"icon\">\r\n          <Loader2Icon className=\"size-8 animate-spin\" />\r\n        </EmptyMedia>\r\n        <EmptyTitle>Đang xác thực tài khoản</EmptyTitle>\r\n        <EmptyDescription>\r\n          Vui lòng đợi trong khi chúng tôi xử lý yêu cầu của bạn. Không làm mới trang.\r\n        </EmptyDescription>\r\n      </EmptyHeader>\r\n    </Empty>\r\n    </div>;\r\n}",
+      "type": "registry:block"
+    }
+  ],
+  "type": "registry:block"
+}
