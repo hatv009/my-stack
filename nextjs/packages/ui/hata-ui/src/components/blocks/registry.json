@@ -1,0 +1,22 @@
+{
+    "$schema": "https://ui.shadcn.com/schema/registry.json",
+    "name": "hata-ui",
+    "homepage": "https://github.com/hatv009/my-stack/tree/main/nextjs/packages/ui/hata-ui",
+    "items": [
+        {
+            "name": "AuthLoading",
+            "type": "registry:block",
+            "title": "Auth Loading",
+            "description": "A simple auth loading component.",
+            "registryDependencies": [
+                "empty"
+            ],
+            "files": [
+                {
+                    "path": "components/blocks/auth/AuthLoading.tsx",
+                    "type": "registry:block"
+                }
+            ]
+        }
+    ]
+}

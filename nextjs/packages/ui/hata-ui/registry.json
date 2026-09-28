@@ -1,0 +1,22 @@
+{
+    "$schema": "https://ui.shadcn.com/schema/registry.json",
+    "name": "hata-ui",
+    "homepage": "https://github.com/hatv009/my-stack/tree/main/nextjs/packages/ui/hata-ui",
+    "include": [
+        "components/blocks/registry.json"
+    ],
+    "items": [
+        {
+            "name": "button",
+            "type": "registry:ui",
+            "title": "Button",
+            "description": "A simple button component.",
+            "files": [
+                {
+                    "path": "components/ui/button.tsx",
+                    "type": "registry:ui"
+                }
+            ]
+        }
+    ]
+}
