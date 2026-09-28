@@ -12,6 +12,7 @@
             "files": [
                 {
                     "path": "auth/AuthLoading.tsx",
+                    "target": "~/components/blocks/auth/AuthLoading.tsx",
                     "type": "registry:block"
                 }
             ]
