@@ -3,7 +3,7 @@
     "name": "hata-ui",
     "homepage": "https://github.com/hatv009/my-stack",
     "include": [
-        "packages/ui/hata-ui/src/components/ui/registry.json",
-        "packages/ui/hata-ui/src/components/blocks/registry.json"
+        "nextjs/packages/ui/hata-ui/src/components/ui/registry.json",
+        "nextjs/packages/ui/hata-ui/src/components/blocks/registry.json"
     ]
 }
