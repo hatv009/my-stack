@@ -3,3 +3,4 @@ export function hello(name: string) {
 }
 
 export { formatVnd } from "./format/currency";
+export * from "./format/datetime";
